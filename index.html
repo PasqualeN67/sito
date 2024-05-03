@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il mio Sito Web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Sfondo sfocato -->
+<div class="sfondo"></div>
+
+<div class="container">
+  <!-- Intestazione -->
+  <header>
+    <h1>Benvenuto sul mio sito Web</h1>
+  </header>
+
+  <!-- Slideshow delle immagini -->
+  <div class="slideshow-container">
+    <!-- Immagine 1 -->
+    <div class="mySlides fade">
+      <img src="wallpaperflare.com_wallpaper (1).jpg" style="width:100%">
+      <!-- Didascalia -->
+      <div class="centro-sotto">
+        <p>Clicca qui per iniziare</p>
+      </div>
+    </div>
+    
+    <!-- Immagine 2 -->
+    <div class="mySlides fade">
+      <img src="download.png" style="width:100%">
+      <!-- Didascalia -->
+      <div class="centro-sotto">
+        <p>Clicca qui per iniziare</p>
+      </div>
+    </div>
+    
+    <!-- Immagine 3 -->
+    <div class="mySlides fade">
+      <img src="download.jpeg" style="width:100%">
+      <!-- Didascalia -->
+      <div class="centro-sotto">
+        <p>Clicca qui per iniziare</p>
+      </div>
+    </div>
+    
+    <!-- Pulsanti per passare alle immagini precedenti e successive -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <!-- Puntini per selezionare un'immagine specifica -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+
+  <!-- Bottone per reindirizzare alla pagina2.html -->
+  <button onclick="location.href='pagina2.html'">Cliccami</button>
+
+  <!-- Piè di pagina -->
+  <footer>
+    <p>By Pasquale Napoletano</p>
+  </footer>
+</div>
+
+<!-- Script per gestire lo slideshow delle immagini -->
+<script src="script.js"></script>
+
+</body>
+</html>
